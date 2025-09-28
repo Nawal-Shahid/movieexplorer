@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +19,13 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        // Fade in developer name
+        TextView devName = findViewById(R.id.developerName);
+        if (devName != null) {
+            Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
+            devName.startAnimation(fadeIn);
+        }
 
         // Shorter delay for better UX
         new Handler(Looper.getMainLooper()).postDelayed(() -> {

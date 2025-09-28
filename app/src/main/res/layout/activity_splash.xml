@@ -2,7 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorPrimary">
+    android:background="?attr/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="24dp">
 
     <ImageView
         android:id="@+id/splash_logo"
@@ -32,6 +34,18 @@
         android:text="Discover Your Next Favorite Movie"
         android:textColor="@color/white"
         android:textSize="14sp"
+        android:alpha="0.8" />
+
+    <TextView
+        android:id="@+id/developerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Developer: Nawal Shahid"
+        android:textColor="@color/white"
+        android:textSize="12sp"
         android:alpha="0.8" />
 
 </RelativeLayout>
