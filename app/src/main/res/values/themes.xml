@@ -18,7 +18,14 @@
 
     <style name="Theme.MovieExplorer" parent="Base.Theme.MovieExplorer" />
     
-    <!-- Splash screen theme -->
+    <!-- Host theme applied only to SplashActivity to match system splash visuals -->
+    <style name="Theme.MovieExplorer.SplashHost" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
+
+    <!-- Custom splash theme (used only if needed) -->
     <style name="Theme.MovieExplorer.Splash" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/primary</item>
         <item name="android:statusBarColor">@color/primary</item>

@@ -21,13 +21,13 @@ public class SplashActivity extends AppCompatActivity {
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
             AuthService authService = AuthService.getInstance();
             Intent intent;
-            
+
             if (authService.isUserLoggedIn()) {
                 intent = new Intent(SplashActivity.this, MainActivity.class);
             } else {
                 intent = new Intent(SplashActivity.this, LoginActivity.class);
             }
-            
+
             startActivity(intent);
             finish();
         }, 1200);

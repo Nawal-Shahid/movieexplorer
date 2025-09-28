@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.movieexplorer.R;
 import com.example.movieexplorer.service.AuthService;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public class MainActivity extends AppCompatActivity {
     private NavController navController;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupNavigation() {
         BottomNavigationView navView = findViewById(R.id.nav_view);
+        MaterialToolbar toolbar = findViewById(R.id.toolbar);
 
         // Configure top level destinations
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
@@ -51,10 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (navHostFragment != null) {
             navController = navHostFragment.getNavController();
-
-            // Setup ActionBar with NavController
-            if (getSupportActionBar() != null) {
-                NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+            // Use the MaterialToolbar as the app bar with per-destination labels
+            if (toolbar != null) {
+                // Optional: let NavController set titles from nav_graph labels
+                toolbar.setTitle(null);
+                NavigationUI.setupWithNavController(toolbar, navController, appBarConfiguration);
             }
 
             // Setup BottomNavigationView with NavController

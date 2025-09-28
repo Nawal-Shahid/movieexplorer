@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="?attr/colorSurface"
-    android:paddingTop="?attr/actionBarSize"
     android:clipToPadding="false">
     
     <androidx.recyclerview.widget.RecyclerView
