@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163324961873",
+    "project_id": "signup-79eaa",
+    "storage_bucket": "signup-79eaa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163324961873:android:8eda3a19be49185af30470",
+        "android_client_info": {
+          "package_name": "com.example.movieexplorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163324961873-3nbh3et08k31focphi4q0a031asljf3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1iBUNkj2yScaN6fI6zzd2a7tmBhJyH0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163324961873-3nbh3et08k31focphi4q0a031asljf3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
