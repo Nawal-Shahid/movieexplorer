@@ -139,6 +139,7 @@ app/src/main/java/com/example/movieexplorer/
 * Ensure SHA keys are added in Firebase console.
 * Requires `google-services.json` in `/app/`.
 
+---
 
 ## Contributing
 
