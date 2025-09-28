@@ -1,6 +1,18 @@
 # Movie Explorer
+![Material 3](https://img.shields.io/badge/Material%203-7E57C2?style=for-the-badge&logo=materialdesign&logoColor=white)
+![MVVM](https://img.shields.io/badge/MVVM-8E24AA?style=for-the-badge&logo=android&logoColor=white)
+![Room](https://img.shields.io/badge/Room-9C27B0?style=for-the-badge&logo=sqlite&logoColor=white)
+![Retrofit](https://img.shields.io/badge/Retrofit-AB47BC?style=for-the-badge&logo=square&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase%20Auth-BA68C8?style=for-the-badge&logo=firebase&logoColor=white)
+![Glide](https://img.shields.io/badge/Glide-CE93D8?style=for-the-badge&logo=android&logoColor=white)
 
 Discover, search, and save your favorite movies with a modern Android app. Built using **Material 3, MVVM, Room, Retrofit, and Firebase Auth**.
+
+---
+
+## Screenshots
+<img width="3780" height="1890" alt="Your paragraph text (2)" src="https://github.com/user-attachments/assets/96e19251-2c5f-47ea-af6b-5a00fcaccba7" />
+
 
 ---
 
@@ -127,13 +139,6 @@ app/src/main/java/com/example/movieexplorer/
 * Ensure SHA keys are added in Firebase console.
 * Requires `google-services.json` in `/app/`.
 
----
-
-## Screenshots (Optional)
-
-*(Add images in `/docs/` and link here)*
-
----
 
 ## Contributing
 
