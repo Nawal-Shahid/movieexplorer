@@ -87,7 +87,7 @@ app/src/main/java/com/example/movieexplorer/
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-username/movie-explorer.git
+   git clone https://github.com/Nawal-Shahid/movieexplorer.git
    cd movie-explorer
    ```
 2. Open in **Android Studio Giraffe+** (SDK 36, Java 11 toolchain).
