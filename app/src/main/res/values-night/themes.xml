@@ -1,8 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Dark theme variants -->
     <style name="Base.Theme.MovieExplorer" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Dark theme customization -->
-        <item name="android:forceDarkAllowed">true</item>
+        <!-- Dark theme customization; removed forceDarkAllowed (API 29+) to support minSdk 24 -->
         <item name="android:statusBarColor">@color/primary_container</item>
         <item name="android:navigationBarColor">@color/background</item>
     </style>
